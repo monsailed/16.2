@@ -1,0 +1,4 @@
+const guests = ["Алексей", "Олег", "Мария", "Дмитрий"];
+// Ваш код здесь
+const vipGuest = guests.find((guest) => guest == "Мария");
+console.log("Вип человек: " + vipGuest);

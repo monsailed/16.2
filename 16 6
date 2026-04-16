@@ -1,0 +1,4 @@
+const prices = [150, 900, 300, 1200, 50, 499];
+// Ваш код здесь
+const cheapItems = prices.filter((price) => price < 500);
+console.log("Цены меньше 500: " + cheapItems);
